@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+tensorflow
+matplotlib
+seaborn
+xgboost
+joblib
+flask
+scapy
+winotify
+requests

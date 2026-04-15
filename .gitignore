@@ -1,0 +1,20 @@
+# Python sanal ortamlar
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# IDE ayarları
+.vscode/
+.idea/
+
+# Model ve Veri (Boyut büyükse)
+*.pkl
+*.h5
+data/
+CSV/
+logs/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db

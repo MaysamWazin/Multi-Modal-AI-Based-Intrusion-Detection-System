@@ -1,0 +1,38 @@
+Projenin Çalıştırılması
+
+Bu proje, Python tabanlı bir Akıllı Saldırı Tespit Sistemi (IDS) ve canlı ağ trafiğini izleyen bir ajan bileşeninden oluşmaktadır. Projenin doğru şekilde çalıştırılabilmesi için aşağıdaki adımlar sırasıyla uygulanmalıdır.
+
+Sanal Ortamın (VENV) Aktifleştirilmesi
+Visual Studio Code açıldıktan sonra terminal ekranı açılır ve proje dizininde aşağıdaki komut çalıştırılarak sanal ortam aktif edilir:
+
+.\venv\Scripts\activate
+
+
+Ana IDS Sisteminin Çalıştırılması (1. Terminal)
+Sanal ortam aktif edildikten sonra, ana saldırı tespit sistemini başlatmak için aşağıdaki komut çalıştırılır:
+
+python intelligent_ids.py
+
+
+Bu işlem, makine öğrenmesi ve derin öğrenme tabanlı IDS/IPS servislerini ve web arayüzünü başlatır. Bu terminal açık bırakılmalıdır.
+
+Canlı Trafik Ajanının Çalıştırılması (2. Terminal)
+Yeni bir terminal açılır ve tekrar sanal ortam aktif edilir:
+
+.\venv\Scripts\activate
+
+
+Ardından, canlı ağ trafiğini izleyen ajan bileşeni çalıştırılır:
+
+python agent\live_agent_flow.py
+
+
+Bu ajan, ağ trafiğini analiz ederek ana IDS sistemine veri göndermektedir.
+
+Dashboard Arayüzüne Erişim
+Her iki bileşen de çalıştıktan sonra, web tarayıcısı üzerinden aşağıdaki adres açılarak sistem arayüzüne erişilir:
+
+http://127.0.0.1:8000/dashboard
+
+
+Bu arayüz üzerinden saldırı tespit sonuçları, sistem durumu ve uyarılar görüntülenebilmektedir.
