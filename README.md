@@ -322,7 +322,7 @@ Bu proje akademik/araştırma amaçlıdır.
 ## 👥 Katkıda Bulunanlar
 
 Proje Kendi tarafımdan geliştirilmiştir.
-
+Email: maysamwazin@gmail.com
 ---
 
 **🛡️ Intelligent IDS - Akıllı Saldırı Tespit Sistemi**
