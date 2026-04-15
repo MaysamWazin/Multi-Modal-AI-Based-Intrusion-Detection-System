@@ -321,7 +321,7 @@ Bu proje akademik/araştırma amaçlıdır.
 
 ## 👥 Katkıda Bulunanlar
 
-Proje geliştiricileri tarafından oluşturulmuştur.
+Proje Kendi tarafımdan geliştirilmiştir.
 
 ---
 
