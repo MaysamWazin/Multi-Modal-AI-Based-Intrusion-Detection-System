@@ -321,7 +321,7 @@ Bu proje akademik/araştırma amaçlıdır.
 
 ## 👥 Katkıda Bulunanlar
 
-Proje Kendi tarafımdan geliştirilmiştir.
+Bu proje tamamen şahsım tarafından geliştirilmiştir.
 Email: maysamwazin@gmail.com
 ---
 
